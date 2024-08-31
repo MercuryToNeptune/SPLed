@@ -10,7 +10,13 @@
 #include "brightness_controller.h"
 #endif
 #include <stdio.h>
+#include <windows.h>
+#ifdef _WIN32
+#include <windows.h>
+#define usleep(microseconds) Sleep((microseconds) / 1000)
+#else
 #include <unistd.h>
+#endif
 
 void spled(void) {
     keyboardInterface();

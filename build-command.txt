@@ -1,0 +1,2 @@
+cmake -DVARIANT=CustA/Disco -B build/CustA/Disco
+cmake --build build/CustA/Disco

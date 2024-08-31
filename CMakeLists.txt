@@ -26,6 +26,9 @@ set(FETCHCONTENT_BASE_DIR ${CMAKE_SOURCE_DIR}/build/modules CACHE INTERNAL "")
 set(FETCHCONTENT_QUIET FALSE)
 include(FetchContent)
 
+# Set the Python path to include the directory containing the spl_core module
+set(ENV{PYTHONPATH} "${CMAKE_SOURCE_DIR}/build/modules/spl-core-src/src")
+
 # Fetch spl-core
 FetchContent_Declare(
     spl-core
