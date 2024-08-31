@@ -1,0 +1,25 @@
+features
+    SPLed
+        mandatory
+
+            Blinking
+                alternative
+                    Fixed
+                    Manually_Adjusted
+                    Automatically_Adjusted
+            
+            Color
+                alternative
+                    Fixed
+                    Randomized
+                    Multiple_predefined
+
+            Transition
+                alternative
+                    Smooth
+                    Immediate
+
+            Brightness_Adjustment
+                alternative
+                    Fixed
+                    Adjustable
