@@ -2,11 +2,11 @@ features
     SPLed
         mandatory
 
-            Blinking
+            Blinking_Rate
                 alternative
                     Fixed
                     Manually_Adjusted
-                    Automatically_Adjusted
+                    Auto_Adjustable
             
             Color
                 alternative
